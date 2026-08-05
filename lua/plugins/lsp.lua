@@ -27,6 +27,8 @@ return {
         })
 
         lspconfig.ltex.setup({
+            cmd = { vim.fn.expand("~/.local/share/ltex-ls/ltex-ls-16.0.0/bin/ltex-ls") },
+            capabilities = capabilities,
             filetypes = { "markdown", "text", "latex" },
             settings = {
                 ltex = {

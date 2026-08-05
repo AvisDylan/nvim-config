@@ -1,0 +1,47 @@
+return {
+    "ahmedkhalf/project.nvim",
+    config = function()
+        require("project_nvim").setup({
+            detection_methods = { "lsp", "pattern" },
+            patterns = {
+                ".git",
+                ".svn",
+                "CMakeLists.txt",
+                "package.json",
+                "next.config.js",
+                "next.config.mjs",
+                "next.config.ts",
+                "pom.xml",
+                "build.gradle",
+                "build.gradle.kts",
+                "settings.gradle",
+                "settings.gradle.kts",
+                "mvnw",
+                "gradlew",
+                "Cargo.toml",
+                "Makefile",
+                "go.mod",
+                "requirements.txt",
+                "pyproject.toml",
+                "setup.py",
+                "mix.exs",
+                "project.clj",
+                "shard.yml",
+                "pubspec.yaml",
+                "angular.json",
+                "vue.config.js",
+                "nuxt.config.js",
+                "nuxt.config.ts",
+                "vite.config.js",
+                "vite.config.ts",
+                "svelte.config.js",
+                "astro.config.mjs",
+                "tailwind.config.js",
+                "tsconfig.json",
+                "jsconfig.json",
+                ".idea",
+                ".vscode"
+            },
+        })
+    end
+}

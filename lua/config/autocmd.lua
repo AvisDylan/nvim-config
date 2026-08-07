@@ -41,7 +41,7 @@ vim.api.nvim_create_autocmd("BufNewFile", {
     callback = add_header,
 })
 
-vim.api.nvim_create_autocmd("BufRead", {
+vim.api.nvim_create_autocmd("BufAdd", {
     pattern = pattern,
     callback = add_header,
 })

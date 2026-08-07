@@ -1,6 +1,7 @@
 return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
+    commit = "7b6cc89", -- TODO put latest once issue is fixed
     config = function()
         require("nvim-treesitter").setup({
 

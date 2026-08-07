@@ -1,7 +1,7 @@
 return {
     "folke/noice.nvim",
     dependencies = {
-        "ManifTanjim/nui.nvim",
+        "MunifTanjim/nui.nvim",
         "rcarriga/nvim-notify",
     },
     config = function()
@@ -11,7 +11,7 @@ return {
             },
             views = {
                 cmdline_popup = {
-                    postion = {
+                    position = {
                         row = "40%",
                         col = "50%",
                     },

@@ -1,4 +1,4 @@
-# 1. Make sure to have Lazy.nvim installed before and a nerd font in your terminal 
+# 1. Make sure to have a nerd font in your terminal 
 
 # 2. Run `git clone https://github.com/AvisDylan/nvim-config ~/.config/nvim/`
 

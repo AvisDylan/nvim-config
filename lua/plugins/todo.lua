@@ -1,7 +1,6 @@
 return {
     "folke/todo-comments.nvim",
     cmd = { "TodoTrouble", "TodoTelescope" },
-    event = "LazyFile",
     opts = {},
     keys = {
         { "]t",         function() require("todo-comments").jump_next() end,              desc = "Next Todo Comment" },
